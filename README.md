@@ -2,26 +2,41 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.6.
 
-## Development server
+## Follow the instructions.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### Get the Code 
 
-## Code scaffolding
+```
+git clone git@github.com:DilushikaWeerawardhana/PWA-Angular-Example.git
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Navigate to the project path and install all the NPM dependencies 
 
-## Build
+```
+npm install
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+### Install http-server to serve the Angular Application
 
-## Running unit tests
+```
+npm i -g http-server@0.0.9
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Build the Application for Production
 
-## Running end-to-end tests
+```
+ng build --prod
+```
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+### Run the Application
 
-## Further help
+```
+cd dist/AngularPwaPostOne/
+http-server -p 8000 -c-1
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+### Now you can see the application in the browser from the following URL
+
+```
+ http://127.0.0.1:8000
+```
