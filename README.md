@@ -7,19 +7,13 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ### Get the Code 
 
 ```
-git clone git@github.com:DilushikaWeerawardhana/PWA-Angular-Example.git
+git clone https://github.com/DilushikaWeerawardhana/PWA-Angular-Example.git
 ```
 
 ### Navigate to the project path and install all the NPM dependencies 
 
 ```
 npm install
-```
-
-### Install http-server to serve the Angular Application
-
-```
-npm i -g http-server@0.0.9
 ```
 
 ### Build the Application for Production
@@ -31,12 +25,14 @@ ng build --prod
 ### Run the Application
 
 ```
-cd dist/AngularPwaPostOne/
-http-server -p 8000 -c-1
+npm start
 ```
 
-### Now you can see the application in the browser from the following URL
+### Now you can view the application in the browser from the following URL s as you can see in the Terminal
 
 ```
- http://127.0.0.1:8000
+  http://172.21.237.241:8080
+  http://172.15.10.191:8080
+  http://127.0.0.1:8080
+  http://172.30.0.1:8080
 ```

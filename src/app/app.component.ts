@@ -17,11 +17,11 @@ export class AppComponent {
   nav = [
     {
       'title': 'Home',
-      'path': '/'
+      'path': 'home'
     },
     {
-      'title': 'My Account (Part 2)',
-      'path': '/'
+      'title': 'My Account',
+      'path': 'account'
     }
   ];
   private _mobileQueryListener: () => void;

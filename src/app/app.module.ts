@@ -8,11 +8,13 @@ import { MaterialModule } from './material/material.module';
 import { HomeComponent } from './home/home.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { AccountComponent } from './account/account.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    AccountComponent
   ],
   imports: [
     BrowserModule,
