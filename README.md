@@ -27,6 +27,7 @@ npm cache clean --force
 ### Navigate to the project path and install all the NPM dependencies 
 
 ```
+cd PWA-Angular-Example/
 npm install
 ```
 
