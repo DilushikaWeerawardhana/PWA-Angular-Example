@@ -4,6 +4,14 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Follow the instructions.
 
+### First You should install following dependencies
+ 
+```
+Angular CLI: "^8.0.6"
+Node: "^10.16.0"
+npm: "^6.5.0"
+```
+
 ### Get the Code 
 
 ```
