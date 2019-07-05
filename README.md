@@ -10,6 +10,12 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 git clone https://github.com/DilushikaWeerawardhana/PWA-Angular-Example.git
 ```
 
+### Clear the NPM cache to avoid caching issues in the development environment 
+
+```
+npm cache clean --force
+```
+
 ### Navigate to the project path and install all the NPM dependencies 
 
 ```
